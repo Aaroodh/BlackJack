@@ -5,7 +5,8 @@ from Game import Game
 game = Game()
 
 # testing pull from git hub
-# merge conflict checking
+# merge conflict checking -2.0
+
 
 def start():
     label_winner["text"] = "Winner: "
