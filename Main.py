@@ -11,6 +11,9 @@ game = Game()
 def printNew():
     return "this is from vsCode"
 
+def newPrint():
+    return "this is from different branch from vscode"
+
 def start():
     label_winner["text"] = "Winner: "
     game.startGame()
