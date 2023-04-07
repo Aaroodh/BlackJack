@@ -6,7 +6,10 @@ game = Game()
 
 # testing pull from git hub
 # merge conflict checking -2.0
-
+# checking merege from vscode
+ 
+def printNew():
+    return "this is from vsCode"
 
 def start():
     label_winner["text"] = "Winner: "
