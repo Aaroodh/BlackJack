@@ -1,5 +1,5 @@
 from tkinter import *
-
+# added new line to check git functionality
 from Game import Game
 
 game = Game()
@@ -49,7 +49,7 @@ def dealer_take_card():
     if game.getDealer().get_player_point() > game.getPlayer().get_player_point():
         button_start.config(state='normal')
         if game.getDealer().get_player_point() <= 21:
-            label_winner["text"] ="Dealer Won"
+            label_winner["text"] = "Dealer Won"
             return
         else:
             label_winner["text"] = "Player Won"
