@@ -27,7 +27,7 @@ def start():
 def print_player_cards(cards_labels, label_point, player):
     cards_labels["text"] = player.get_cards_text()
     label_point["text"] = player.get_player_point()
-
+ 
 
 def disable_control_buttons():
     button_take_card["state"] = DISABLED

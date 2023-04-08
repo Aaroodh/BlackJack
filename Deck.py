@@ -21,6 +21,5 @@ class Deck:
     def give_card(self):
         """Return random card from deck and remove it from deck"""
         card = self.list[randint(0, len(self.list) - 1)]
-        self.list.remove(card)
-        return card
+        return  self.list.remove(card)
 
